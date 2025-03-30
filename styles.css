@@ -1,25 +1,104 @@
-<html><head><style type="text/css" id="dcoder_stylesheet">body { font-family: Arial, sans-serif; background: linear-gradient(to right, #001f3f, #0074D9); margin: 0; padding: 0; text-align: center; color: white; overflow-x: hidden; }
+body { 
+    font-family: Arial, sans-serif; 
+    background: linear-gradient(to right, #001f3f, #0074D9); 
+    margin: 0; 
+    padding: 0; 
+    text-align: center; 
+    color: white; 
+    overflow-x: hidden; 
+}
 
-header { background: #001f3f; color: white; padding: 20px 0; font-size: 24px; font-weight: bold; text-transform: uppercase; width: 100%; box-sizing: border-box; }
+header { 
+    background: #001f3f; 
+    color: white; 
+    padding: 20px 0; 
+    font-size: 24px; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    width: 100%; 
+    box-sizing: border-box; 
+}
 
-nav ul { list-style: none; padding: 10px; margin: 0; display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; background: rgba(0, 0, 0, 0.7); border-radius: 5px; }
+nav ul { 
+    list-style: none; 
+    padding: 10px; 
+    margin: 0; 
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    background: rgba(0, 0, 0, 0.7); 
+    border-radius: 5px; 
+}
 
-nav ul li { display: inline; }
+nav ul li { 
+    display: inline; 
+}
 
-nav ul li a { color: white; text-decoration: none; font-weight: bold; padding: 10px 15px; transition: background 0.3s, color 0.3s; display: inline-block; white-space: nowrap; }
+nav ul li a { 
+    color: white; 
+    text-decoration: none; 
+    font-weight: bold; 
+    padding: 10px 15px; 
+    transition: background 0.3s, color 0.3s; 
+    display: inline-block; 
+    white-space: nowrap; 
+}
 
-nav ul li a:hover { background: #0074D9; border-radius: 5px; }
+nav ul li a:hover { 
+    background: #0074D9; 
+    border-radius: 5px; 
+}
 
-section { padding: 30px; margin: 20px auto; width: 90%; max-width: 1200px; background: rgba(255, 255, 255, 0.1); border-radius: 10px; box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2); transition: transform 0.3s; }
+section { 
+    padding: 30px; 
+    margin: 20px auto; 
+    width: 90%; 
+    max-width: 1200px; 
+    background: rgba(255, 255, 255, 0.1); 
+    border-radius: 10px; 
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2); 
+    transition: transform 0.3s; 
+}
 
-section:hover { transform: scale(1.02); }
+section:hover { 
+    transform: scale(1.02); 
+}
 
-table { width: 100%; border-collapse: collapse; margin-top: 20px; color: white; table-layout: fixed; word-wrap: break-word; }
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 20px; 
+    color: white; 
+    table-layout: fixed; 
+    word-wrap: break-word; 
+}
 
-table, th, td { border: 1px solid white; padding: 12px; text-align: center; }
+table, th, td { 
+    border: 1px solid white; 
+    padding: 12px; 
+    text-align: center; 
+}
 
-th { background: #001f3f; color: white; }
+th { 
+    background: #001f3f; 
+    color: white; 
+}
 
-td { background-color: rgba(255, 255, 255, 0.1); color: white; word-break: break-word; }
+td { 
+    background-color: rgba(255, 255, 255, 0.1); 
+    color: white; 
+    word-break: break-word; 
+}
 
-footer { background: #001f3f; color: white; padding: 10px; position: fixed; bottom: 0; width: 100%; text-transform: uppercase; text-align: center; box-sizing: border-box; }</style></head><body></body></html>
+footer { 
+    background: #001f3f; 
+    color: white; 
+    padding: 10px; 
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+    text-transform: uppercase; 
+    text-align: center; 
+    box-sizing: border-box; 
+}
